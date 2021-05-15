@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+
+<DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+<title>réalisé par khayati rahma & roudayna dridi</title>
+  <meta name="description" content="plateforme des offres mi temps">
+  <meta name="keywords" content="Quickcoin,kuicoin,coin,travaille,etudiant,mi-temps,annonce">
+  <link rel="stylesheet" href="../css/style.css">
+   <script src="../js/controle.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+<div class="row"></div>
+<div class="col-sm-8"><img src="../images/2.png"/></div>
+</div>
+</head>
+
+
+<body >
+  <div class="container">
+
+ 
+  <nav  class="center">
+    <ul>
+      <div class="row">
+        <div class="col-xs-12">
+  <li ><a href="Accueil.html" > Accueil </a></li>
+  <li><a href="a propos.html" > Apropos </a></li>
+  <li><a href="offre mi temps.html" > Offre Mid Temps</a> </li>
+  <li> <a href="aide.html" >Aide </a> </li>
+  </div>
+       </div>        
+     </ul> 
+   
+ </nav>
+
+
+	<form class="center box" name="InscritEtudiant" method="Get" action="">
+   
+		               <h1>Inscription</h1><br/> <br/>
+
+                   <div  >
+                    <label for="text">  Votre Nom: </label>
+  <input type="text" name="nom" size="20"
+maxlength="15" placeholder="nom" autofocus required /></p>
+        <label for="text"  >  Votre pr&eacutenom: :</label>
+        <input type="text" name="prenom" size="20"
+maxlength="50" placeholder="prénom" autofocus required/></p>
+    <label for="email">  votre adresse mail :</label>
+    <input type="email" name="email" autofocus required ></p>
+        
+        <label for="md-passe"> le mot de passe :</label>
+<input type="password" name="md-passe" id="md-passe" pattern="[a-z][0-9]{7}" maxlength="8"autofocus required />
+
+
+   <p><label for="ville">Dans quel ville habitez-vous ?</label><br /><br/>
+<select name="ville" id="ville" >
+<option value="Tunise"> Tunise</option>
+<option value="Ariana"> Ariana </option>
+<option value="Beja"> Beja </option>
+<option value="Ben arous"> Ben arous </option>
+<option value="Gabes"> Gabes </option>
+<option value="Gafsa"> Gafsa </option>
+<option value="Benzaret"> Benzaret </option>
+<option value="Jandouba"> Jandouba </option>
+<option value="Kairouan"> Kairouan </option>
+<option value="Kasserine"> Kasserine </option>
+<option value="Kbeli"> Kbeli </option>
+<option value="Manouba"> Manouba </option>
+<option value="Kef"> Kef </option>
+<option value="Mahdia"> Mahdia </option>
+<option value="Mednin"> Mednin </option>
+<option value="Monastir"> Monastir </option>
+<option value="Nabeul"> Nabeul </option>
+<option value="Sfax"> Sfax </option>
+<option value="Sidi bouzid"> Sidi bouzid </option>
+<option value="Siliana"> Siliana </option>
+<option value="Sousse"> Sousse </option>
+<option value="Tataouine"> Tataouine </option>
+<option value="Zaghouan"> Zaghouan </option>
+<option value="Touzeur"> Touzeur </option>
+<option value="Tunisie" selected>Tunisie</option>
+</select> </p>
+</div>
+</div>
+  <div class="block1 " >
+
+   <input type="checkbox" name="etudiant" id="etudiant" />
+<label for="etudiant">etudiant</label><br/><br/>
+
+<label for="université">université : </label>
+    <input type="text" name="université" id="université" size="20"
+maxlength="20" placeholder="université" /><br/><br/>
+ 
+          
+         <input type="radio" name="sex" value="fille" id="fille" />
+<label for="fille">fille</label>
+
+         <input type="radio" name="sex" value="garcon" id="garcon" />
+<label for="garcon">garçon</label><br />
+  </div>  
+
+
+
+   <div class="block2">
+     <input type="checkbox" name="annonceur" id="annonceur" />
+                   <label for="annonceur">annonceur</label><br />
+   	   <p> <label for="adresse"> l'adress de travaille :</label>
+<input type="text" name="adresse" id="adresse"
+placeholder="votre adresse" /></p>
+      <p><label for="l'offre">
+      	entrer votre offre 
+      </label>
+        
+     </p>    
+        <TEXTAREA class="area" NAME="l'offre"
+ROWS="5"
+COLS="60">
+   ecrire votr offre s'il vous plais 
+</TEXTAREA> <br/>
+              <label for="l'offre"> tepms de travaille 
+      </label>
+     <input type="text" name="horloge" size="10"
+maxlength="15" placeholder="jj/mm/yyyy et l'heure " /> <br/><br/>
+
+           <label for="l'offre"> salaire  
+      </label>
+      <input type="text" name="salaire" size="7"
+maxlength="10" value= "00" /> <br/>
+   </div> 
+
+
+    
+
+<div id="bottom" class="center">
+<button type="submit" name="envoyer"  onclick="verif()"   ><a>envoyer</a></button> 
+<button type="reset" name="annuler"  ><a>annuler</a></button> <br/>
+</div>
+
+	</form>
+
+ <footer class="center">
+  <h1 class="white"> Contacts : </h1>
+       
+<ul>
+  <li> Adresse Mail : Quickcoin@gmail.tn  </li>
+  <li> Telephone : 52863478 /22594367 </li>
+  <li> Linked In : </li>
+     </ul> 
+
+
+     </footer>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+     </body>
+
+     </html>
